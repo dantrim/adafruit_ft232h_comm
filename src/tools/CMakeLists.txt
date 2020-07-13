@@ -9,4 +9,5 @@ foreach(target ${tools})
 
     add_executable(${execname})
     target_sources(${execname} PRIVATE ${srcfile})
+    target_link_libraries(${execname} PRIVATE ${LIBFTDI_LIBRARIES})
 endforeach()
