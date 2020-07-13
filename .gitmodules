@@ -1,0 +1,3 @@
+[submodule "labRemote"]
+	path = labRemote
+	url = ssh://git@gitlab.cern.ch:7999/dantrim/labRemote.git
