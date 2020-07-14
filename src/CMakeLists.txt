@@ -1,7 +1,7 @@
 ##
 ## DEPENDENCIES
 ##
-find_package( LibFTDI1 )
+find_package( libftdi )
 
 ##
 ## main
