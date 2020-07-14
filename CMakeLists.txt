@@ -18,7 +18,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_MACOSX_RPATH 1)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-set(CMAKE_MODULE_APTH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/labRemote/cmake")
+#set(CMAKE_MODULE_APTH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/labRemote/cmake")
 
 if("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
   if (CMAKE_CXX_COMPILER_VERSION VERSION_LESS 4.8)
@@ -41,5 +41,5 @@ endif()
 set(CMAKE_CXX_STANDARD 14)
 
 # Source code
-add_subdirectory(labRemote)
+#add_subdirectory(labRemote)
 add_subdirectory(src)
