@@ -6,10 +6,12 @@
 #  LIBMPSSE_DEFINITIONS - Compiler switches required for using libmpsse
 
 FIND_PATH(LIBMPSSE_INCLUDE_DIR mpsse.h
-          HINTS /usr/include ~/lib/mpsse/include )
+            HINTS /Users/dantrim/software/libmpsse/src)
+#          HINTS /usr/include ~/lib/mpsse/include )
 
 FIND_LIBRARY(LIBMPSSE_LIBRARY NAMES mpsse libmpsse
-              HINTS /usr/lib64 ~/lib/mpsse/lib )
+            HINTS /Users/dantrim/software/libmpsse/src)
+#              HINTS /usr/lib64 ~/lib/mpsse/lib )
 
 INCLUDE(FindPackageHandleStandardArgs)
 # handle the QUIETLY and REQUIRED arguments and set LIBMPSSE_FOUND to TRUE
